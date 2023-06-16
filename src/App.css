@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #1aa0b8;
+}
+.main_div{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px rgb(201, 200, 200);
+}
+.inputField{
+  display: inline-block;
+}
+.inputField input{
+  outline: none;  
+  border: none;
+  font-size: 25px;
+}
+
+.todolist{
+  text-align: left;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.item li {
+  list-style-type: none; ;
+}
+
+.deletebtn{
+  height: 25px;
+  width: 25px;
+  background-color: #1aa0b8;
+  border-radius: 10px;
+}
+.deletebtn :hover{
+  background-color: rgb(244, 46, 46);
+  border-radius: 8px;
+}
